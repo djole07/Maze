@@ -8,12 +8,14 @@ The goal is to visualize best action in each cell on the board. Board consist of
 4. Wall (obstacle, user cannot go through it)
 5. Terminal - the goal
 
-_every cell's reward can be changed_
-
 Also, for added complexity, each action has certain probability to be applied. In this example, we have "wind", which means that there is a chance that player would be dragged to the right after every chosen action.
 
-For every cell on the map, there is a estimated value of that cell, as well as best action to choose in that cell.
-<img width="837" height="630" alt="image" src="https://github.com/user-attachments/assets/7e96c1ae-ed64-488d-9305-9e6c82a91d2d" />
+For every cell on the map, there is an estimated value of that cell, as well as best action to choose in that cell.
+<img width="600" height="452" alt="image" src="https://github.com/user-attachments/assets/50828720-3aae-431e-9392-5229c2d2c49f" />
+
+
+<img width="609" height="416" alt="image" src="https://github.com/user-attachments/assets/5bf540a0-3f19-4d9a-87e6-5bb7aeec61f3" />
+
 
 
 ## Technical Implementation
